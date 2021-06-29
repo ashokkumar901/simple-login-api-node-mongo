@@ -7,7 +7,7 @@ const schema = new Schema({
     firstName: { type: String, required: true },
     lastName: { type: String, required: true },
     createdDate: { type: Date, default: Date.now },
-    userType:{type:String, required:true, default:'customer'},
+    userType:{type:String, required:true, default:'user'},
     lastActive: { type:Number, required:false},
     clientIpAddress:{ type:String, required:false}
 });
